@@ -33,7 +33,7 @@ const Contact = () => {
     setStatus("");
 
     try {
-      const response = await fetch("http://localhost:5000/send-mail", {
+      const response = await fetch("https://back-end-portfolio-nine.vercel.app/send-mail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
